@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 5000
+ADD crossrates.jar crossrates.jar
+ENTRYPOINT ["java","-jar","crossrates.jar"]
